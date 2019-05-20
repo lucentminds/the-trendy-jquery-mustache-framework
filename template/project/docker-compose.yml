@@ -1,0 +1,21 @@
+###############################################################################
+#                          Generated on phpdocker.io                          #
+###############################################################################
+version: "3.1"
+
+networks:
+  {%= name %}:
+
+services:
+
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    working_dir: /application
+    volumes:
+        - .:/application
+        - ./docker-compose/nginx:/etc/nginx/conf.d
+    ports:
+    - "80:80"
+    networks:
+      - {%= name %}

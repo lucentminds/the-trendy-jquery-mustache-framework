@@ -12,7 +12,9 @@ const Q = require( 'q' );
 const argv = require('minimist')(process.argv.slice(2),{
    default: {
       help: false,
-      make: null
+      make: null,
+      desc: '',
+      
    }
 });
 

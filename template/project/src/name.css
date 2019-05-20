@@ -1,0 +1,50 @@
+/*
+ * {%= date %}
+ * {%= description %}
+ * ~~ {%= author_name %}
+ */
+.ui-app-main
+{
+   width: 100%;
+   max-width: 43em;
+   min-width: 20em;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 1em;
+}
+
+.ui-widget-page
+{
+   padding: 0.3em;
+}
+
+/**
+ * Hide the number scroll arrows in number input fields.
+ */
+/*input[type=number]
+{
+   -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button
+{
+   -webkit-appearance: none;
+   margin: 0;
+}*/
+
+
+/* Small only */
+/*@media screen and (max-width: 39.9375em) {}*/
+
+/* Medium and up */
+/*@media screen and (min-width: 40em) {}*/
+
+/* Medium only */
+/*@media screen and (min-width: 40em) and (max-width: 63.9375em) {}*/
+
+/* Large and up */
+/*@media screen and (min-width: 64em) {}*/
+
+/* Large only */
+/*@media screen and (min-width: 64em) and (max-width: 74.9375em) {}*/

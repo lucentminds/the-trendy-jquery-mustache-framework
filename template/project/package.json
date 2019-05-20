@@ -1,0 +1,33 @@
+{
+   "name": "{%= name %}",
+   "date": "{%= date %}",
+   "description": "{%= description %}",
+   "license": "UNLICENSED",
+   "version": "0.0.1",
+   "engines": {
+      "node": ">=4.0.0"
+   },
+   "main": "{%= name %}.html",
+   "scripts": {
+      "build": "node scripts/build.js",
+      "watch": "node scripts/watch.js",
+      "deploy": "node scripts/deploy.js"
+   },
+   "devDependencies": {
+      "q": "^1.4.1",
+      "node-sass": "^4.5.3",
+      "builder-bob": "git+https://github.com/lucentminds/builder-bob.git",
+      "promise-empty-dir": "git+https://github.com/lucentminds/promise-empty-dir.git",
+      "promise-file-concat": "git+https://github.com/lucentminds/promise-file-concat.git",
+      "promise-file-copy": "git+https://github.com/lucentminds/promise-file-copy.git",
+      "promise-file-write": "git+https://github.com/lucentminds/promise-file-write.git",
+      "promise-file-replace": "git+https://github.com/lucentminds/promise-file-replace.git",
+      "promise-resolve-path": "git+https://github.com/lucentminds/promise-resolve-path.git",
+      "promise-file-uglify": "git+https://github.com/lucentminds/promise-file-uglify.git",
+      "promise-file-jsify": "git+https://github.com/lucentminds/promise-file-jsify.git"
+   },
+   "dependencies": {
+      "jquery-ui": "^1.12.1",
+      "what-input": "^5.1.3"
+   }
+}
