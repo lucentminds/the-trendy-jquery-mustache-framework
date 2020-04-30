@@ -22,7 +22,7 @@
   "homepage": "https://github.com/lucentminds/the-trendy-jquery-mustache-framework#readme",
   "dependencies": {
     "builder-bob": "git+https://github.com/lucentminds/builder-bob.git",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "klaw": "^3.0.0",
     "minimist": "^1.2.5",
