@@ -23,7 +23,7 @@
   "dependencies": {
     "builder-bob": "git+https://github.com/lucentminds/builder-bob.git",
     "jquery": "^3.5.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.2",
     "klaw": "^3.0.0",
     "minimist": "^1.2.5",
     "mustache": "^3.0.1"
